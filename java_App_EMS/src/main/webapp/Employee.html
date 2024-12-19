@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style >
+  .linear-gradient{
+                           width: 1425px;
+                           height: 370px;
+                           background: linear-gradient(to top ,rgb(0, 64, 0),white,rgb(236, 84, 19));
+                           box-shadow: 7px 7px 7px white, -7px -7px 7px white, 15px 15px 15px black;
+                           margin: 20px;
+                       }
+.center-table
+             {
+             margin: 0 auto;
+             width: 30%;
+             border-collapse:collapse;
+             }
+  table {
+            border-collapse: collapse;
+        }
+ th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+       td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: right;
+            }
+        
+</style>
+</head>
+<body>
+<div class="linear-gradient">
+<h1 align="center">EMPLOYEE MANAGEMENT SYSTEM</h1>
+<form action="add" method="post">
+<table class="center-table">
+  <thead>
+   <tr><th>Employee Id : <input type="text" name="eid"></th></tr>
+   <tr><th>Employee Name : <input type="text" name="ename"></th></tr>
+   <tr><th>Employee Desg : <input type="text" name="eDesg"></th></tr>
+   <tr><th>Employee City : <input type="text" name="ecity"></th></tr>
+   <tr><th>Employee MailId: <input type="text" name="mId"></th></tr>
+   <tr><th>Employee PhNo : <input type="text" name="phno"></th></tr>
+   <tr><th>Employee BSal :<input type="text" name="bsal"></th></tr>
+  </thead>
+   <tbody>
+   <tr><td><input type="submit" value="AddEmployee"></td></tr>
+  </tbody>
+</table>
+</form>
+</div>
+</body>
+</html>
